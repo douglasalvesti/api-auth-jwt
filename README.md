@@ -181,4 +181,4 @@ Foco em Backend e Cibersegurança
 
 LinkedIn: www.linkedin.com/in/douglas-alves-b44a18222
 
-GitHub: <https://github.com/douglasalvesti>
+GitHub: <https://github.com/douglasalvesti/api-auth-jwt>
