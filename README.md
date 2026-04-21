@@ -1,6 +1,6 @@
 # 🔥 API Auth JWT - Sistema de Autenticação
 
-Projeto fullstack de autenticação utilizando Flask (backend) e HTML, CSS e JavaScript (frontend), com implementação de JWT (JSON Web Token) para controle de acesso.
+Projeto fullstack de autenticação utilizando **Flask** (backend) e **HTML, CSS e JavaScript** (frontend), com implementação de **JWT (JSON Web Token)** para controle de acesso.
 
 ---
 
@@ -9,7 +9,7 @@ Projeto fullstack de autenticação utilizando Flask (backend) e HTML, CSS e Jav
 - Cadastro de usuário
 - Login com validação
 - Geração de token JWT
-- Armazenamento do token no navegador (localStorage)
+- Armazenamento do token no navegador (`localStorage`)
 - Acesso a rota protegida
 - Logout
 
@@ -88,7 +88,7 @@ api-auth-jwt/
 ### 1. Clonar o repositório
 
 ```bash
-git clone <PRIVATE_URL>
+git clone https://github.com/douglasalvesti/api-auth-jwt.git
 cd api-auth-jwt
 ```
 
@@ -113,59 +113,67 @@ py backend/app.py
 
 Servidor rodando em:
 
+```txt
 http://127.0.0.1:5000
+```
 
 ### 5. Abrir o frontend
 
 Abra no navegador:
 
+```txt
 frontend/index.html
+```
 
 ---
 
 ## 🔐 Como funciona a autenticação
 
-1. O usuário realiza cadastro ou login  
-2. O backend valida os dados  
-3. Um token JWT é gerado  
-4. O token é armazenado no localStorage  
-5. O frontend envia o token no header Authorization  
-6. O backend valida o token e libera acesso à área protegida  
+1. O usuário realiza cadastro ou login
+2. O backend valida os dados
+3. Um token JWT é gerado
+4. O token é armazenado no `localStorage`
+5. O frontend envia o token no header `Authorization`
+6. O backend valida o token e libera acesso à área protegida
 
 ---
 
 ## 🔑 Exemplo de autenticação
 
+No projeto atual, o token é enviado assim:
+
+```txt
 Authorization: SEU_TOKEN_AQUI
+```
 
 ---
 
 ## 📌 Funcionalidades implementadas
 
-- Autenticação com JWT  
-- Proteção de rotas  
-- Comunicação frontend ↔ backend  
-- Armazenamento de sessão no navegador  
+- Autenticação com JWT
+- Proteção de rotas
+- Comunicação frontend ↔ backend
+- Armazenamento de sessão no navegador
 
 ---
 
 ## 🎯 Aprendizados
 
-- Criação de API com Flask  
-- Estruturação de projeto backend  
-- Autenticação com JWT  
-- Consumo de API com JavaScript  
-- Uso de localStorage  
+- Criação de API com Flask
+- Estruturação de projeto backend
+- Autenticação com JWT
+- Consumo de API com JavaScript
+- Uso de `localStorage`
 
 ---
 
 ## 🚀 Melhorias futuras
 
-- Banco de dados (SQLite/PostgreSQL)  
-- Criptografia de senha (bcrypt)  
-- Expiração de token  
-- Padrão Bearer Token  
-- Deploy  
+- Banco de dados (SQLite/PostgreSQL)
+- Criptografia de senha com bcrypt
+- Expiração de token
+- Padronização com Bearer Token
+- Deploy
 
 ---
 
@@ -173,12 +181,11 @@ Authorization: SEU_TOKEN_AQUI
 
 Douglas Alves  
 Estudante de Análise e Desenvolvimento de Sistemas  
-Foco em Backend e Cibersegurança  
+Foco em Backend e Cibersegurança
 
 ---
 
 ## 📬 Contato
 
-LinkedIn: www.linkedin.com/in/douglas-alves-b44a18222
-
-GitHub: <https://github.com/douglasalvesti/api-auth-jwt>
+LinkedIn: https://www.linkedin.com/in/douglas-alves-b44a18222/  
+GitHub: https://github.com/douglasalvesti
