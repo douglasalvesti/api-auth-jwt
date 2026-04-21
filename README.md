@@ -140,8 +140,6 @@ frontend/index.html
 
 ## 🔑 Exemplo de autenticação
 
-No projeto atual, o token é enviado assim:
-
 ```txt
 Authorization: SEU_TOKEN_AQUI
 ```
@@ -172,7 +170,7 @@ Authorization: SEU_TOKEN_AQUI
 - Banco de dados (SQLite/PostgreSQL)
 - Criptografia de senha com bcrypt
 - Expiração de token
-- Padronização com Bearer Token
+- Padrão Bearer Token
 - Deploy
 
 ---
@@ -188,4 +186,4 @@ Foco em Backend e Cibersegurança
 ## 📬 Contato
 
 LinkedIn: https://www.linkedin.com/in/douglas-alves-b44a18222/  
-GitHub: https://github.com/douglasalvesti
+GitHub: https://github.com/douglasalvesti/api-auth-jwt
